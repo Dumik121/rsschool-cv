@@ -19,6 +19,8 @@
     
     Python <a little bit>;
 * I have no work experience yet;
+    
 * I am studying in the second year of Micro- and nanosystem engineering.I also have experience of coding on platforms such as codeforse and algotester;
+    
 * Studied English at school and university at B2 level , but I think A2-B1 its my real one.
     
