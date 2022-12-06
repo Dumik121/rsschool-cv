@@ -10,6 +10,7 @@
     
     Discord/Github: Dumik121;
 * To begin with after a year of studying at the university, I realized that I have no prospects and interest in the chosen specialty. So, having experience with programming languages ​​such as pythin and C++, I decided to try myself in JS FE development.
+
 * Skills:
 
     C++;
