@@ -32,6 +32,12 @@
 .Information{
     margin-bottom: 40px;
 }
+.Content{
+    border: 1px solid black;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
 #Contacts {
   border: 1px solid black;
   width: 500px;
