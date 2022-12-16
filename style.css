@@ -1,1 +1,83 @@
-
+.Photo {
+  height: 200px;
+  width: 200px;
+}
+.Photo1 {
+  width: 50%;
+  height: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 50px;
+  margin-left: 5%;
+}
+.body{
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.menu {
+  width: 150px;
+  padding: 15px;
+}
+.Point {
+  font-style: italic;
+}
+.link:hover {
+  color: blue;
+}
+.Information{
+    margin-bottom: 40px;
+}
+#Contacts {
+  border: 1px solid black;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
+#Summary {
+  border: 1px solid black;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
+#Skills {
+  border: 1px solid black;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
+#Education {
+  border: 1px solid black;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
+#CodeExample {
+  border: 1px solid black;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
+#Code {
+  border: 1px solid black;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
+#English {
+  border: 1px solid black;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;   /* Height of the footer */
+    background: #6cf;
+}
