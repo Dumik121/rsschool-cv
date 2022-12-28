@@ -1,0 +1,345 @@
+.body{
+position: relative;
+width: 1440px;
+height: 3870px;
+
+}
+.header{
+position: absolute;
+width: 1440px;
+height: 134px;
+left: 0px;
+top: 0px;
+
+background: #EDF2EC;
+}
+.navbar{
+position: absolute;
+width: 1220px;
+height: 50px;
+left: 111px;
+top: 42px;
+}
+.nav{
+position: absolute;
+width: 452px;
+height: 50px;
+left: 768px;
+
+display: flex;
+
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+color: #010201;
+
+}
+ul { list-style: none;
+    margin: 0;
+    padding: 0; 
+    width: 452px;
+    display:flex;
+justify-content: space-between;
+    
+}
+li{
+    display:inline;
+    line-height: 50px;
+     display: flex; float: left;
+     text-align: center;
+}
+
+.prise{
+    width: 38px;
+
+}
+.home{
+    width: 44px;
+    line-height: 50px;
+    margin-left: 0;
+    color: #E06733;
+    text-align: center;
+    
+}
+.aboutus {
+    width: 67px;
+    line-height: 50px;
+}
+.service{
+    width: 55px;
+}
+.contacts{
+    position: center;
+    width: 64px;
+}
+.logo{
+   position: absolute;
+    width: 79.17px;
+height: 21.04px;
+top: 10px;
+}
+.leaves{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    
+}
+.plants{
+    position: absolute;
+    top: 4.4px;
+    width: 58.13px;
+    height: 17px;
+    left: 21.05px;
+    color: #010201;
+}
+
+
+
+.welcome{
+position: absolute;
+width: 1440px;
+height: 532px;
+left: 0px;
+top: 134px;
+
+background: #EDF2EC;
+
+
+}
+.welcomesection{
+ position: absolute;
+width: 1222px;
+height: 407.36px;
+left: 109px;
+top: 62px;
+}
+.leafs{
+    position: absolute;
+width: 448.8px;
+height: 407.36px;
+
+
+}
+.wtx{
+    position: absolute;
+width: 549px;
+height: 340px;
+left: 637px;
+top: 36px;
+}
+.welcometext{
+    position: absolute;
+ width: 549px;
+height: 101px;
+
+font-weight: 700;
+font-size: 45px;
+line-height: 50px;
+font-family: 'Inter';
+font-style: normal;
+color: #717171;
+margin: 0;
+
+}
+.text1{
+    position: absolute;
+width: 525.44px;
+height: 105px;
+top: 143px;
+
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+font-family: 'Inter';
+font-style: normal;
+color: #636060;
+}
+.button1{
+    position: absolute;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    top: 296px;
+    box-sizing: border-box;
+    width: 158px;
+    height: 44px;
+   
+    
+    
+}
+.textbutton{
+    width: 104px;
+height: 16px;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+color: #000000;
+
+
+
+display: inline-block;
+
+}
+
+
+.about{
+    position: absolute;
+width: 1440px;
+height: 666px;
+left: 0px;
+top: 666px;
+
+background: #FFFFFF;
+}
+.sectionabout{
+    position: absolute;
+    width: 1222px;
+    height: 479px;
+    left: 109px;
+    top: 93px;
+}
+.houseplant{
+    position: absolute;
+width: 464px;
+height: 479px;
+right:0px;
+}
+.textgardeners{
+    position: absolute;
+    width: 605px;
+height: 350px;
+    left: 0px;
+    top: 68px;
+}
+.gardeners{
+    position: absolute;
+width: 463px;
+height: 102px;
+left: 109px;
+top:0px;
+margin: 0;
+left:0px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+
+color: #499A18;
+}
+.text2{
+    position: absolute;
+width: 605px;
+height: 208px;
+left: 0px;
+top: 142px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #636060;
+}
+
+
+
+.services{
+    position: absolute;
+width: 1440px;
+height: 1300px;
+left: 0px;
+top: 1332px;
+
+background: #EDF2EC;
+}
+.servicecontent{
+    position: absolute;
+width: 1007px;
+height: 94px;
+left: 109px;
+top: 40px;
+}
+.serviceprojects{
+    position: absolute;
+    width: 306px;
+    height: 94px;
+    left: 0px;
+    
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0;
+    
+    color: #499A18;
+}
+.servicebuttons{
+    position: absolute;
+width: 559px;
+height: 50px;
+right: 0px;
+top: 29px;
+display: flex;
+justify-content: space-between;
+
+}
+.button2{
+    
+width: 161px;
+height: 50px;
+border: 1px solid #E06733;
+border-radius: 5px;
+
+}
+.textbutton1{
+    width: 81px;
+    height: 26px;
+    font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #E06733;
+
+display: inline-block;
+
+}
+.textbutton2{
+    width: 53px;
+    height: 26px;
+    font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #E06733;
+
+display: inline-block;
+}
+.textbutton3{
+ width: 81px;
+height: 26px;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #E06733;
+
+
+display: inline-block;
+
+
+}
