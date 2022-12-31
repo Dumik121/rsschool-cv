@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="index.js" ></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.svg"/>
+    <link rel="icon" href="assets/favicon.svg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -18,7 +18,7 @@
   </head>
   <body class="body">
     <header class="header">
-      <navbar class="navbar">
+      <div class="navbar">
         <logo class="logo">
           <img
             src="assets/logo_vector.png"
@@ -29,14 +29,16 @@
         </logo>
         <nav class="nav">
           <ul>
-            <li><a href="#home" class="home" style="color:#E06733">Home</a></li>
+            <li>
+              <a href="#home" class="home" style="color: #e06733">Home</a>
+            </li>
             <li><a href="#about" class="aboutus">About us</a></li>
             <li><a href="#service" class="service">Service</a></li>
             <li><a href="#price" class="prise">Price</a></li>
             <li><a href="#contactus" class="contacts">Contacts</a></li>
           </ul>
         </nav>
-      </navbar>
+      </div>
     </header>
     <main>
       <section class="welcome" id="home">
@@ -47,13 +49,13 @@
               We grow <span style="color: #499a18"> plants</span> and give you
               oxygen
             </h1>
-            <text class="text1"
-              >Lorem Ipsum is simply dummy text of the printing and typesetting
+            <div class="text1">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.</text
-            >
+              ever since the 1500s.
+            </div>
             <button class="button1">
-              <text class="textbutton">LEARN MORE</text>
+              <div class="textbutton">LEARN MORE</div>
             </button>
           </div>
         </div>
@@ -71,14 +73,14 @@
               <span style="color: #e06733"> professional experienced</span>
               gardeners
             </h2>
-            <text class="text2"
-              >Lorem Ipsum is simply dummy text of the printing and typesetting
+            <div class="text2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
-            </text>
+            </div>
           </div>
         </div>
       </section>
@@ -87,59 +89,67 @@
           <h2 class="serviceprojects">Service and our projects</h2>
           <div class="servicebuttons">
             <button class="button2">
-              <text class="textbutton1">Gardens</text>
+              <div class="textbutton1">Gardens</div>
             </button>
             <button class="button2">
-              <text class="textbutton2">Lawn</text>
+              <div class="textbutton2">Lawn</div>
             </button>
             <button class="button2">
-              <text class="textbutton3">Planting</text>
+              <div class="textbutton3">Planting</div>
             </button>
           </div>
         </div>
         <div class="services_items">
-          <container class="item1">
+          <div class="item1">
             <img src="assets/first.png" alt="first Photo" class="firstPhoto" />
             <div class="border">
-              <text class="textItem">Garden care</text>
-              <text class="textItem1">Lorem Ipsum has been the industry</text>
+              <div class="textItem">Garden care</div>
+              <div class="textItem1">Lorem Ipsum has been the industry</div>
             </div>
-          </container>
-          <container class="item1">
-            <img src="assets/second.png" alt="second Photo" class="firstPhoto" />
+          </div>
+          <div class="item1">
+            <img
+              src="assets/second.png"
+              alt="second Photo"
+              class="firstPhoto"
+            />
             <div class="border">
-              <text class="textItem">Planting</text>
-              <text class="textItem1">Lorem Ipsum has been the industry</text>
+              <div class="textItem">Planting</div>
+              <div class="textItem1">Lorem Ipsum has been the industry</div>
             </div>
-          </container>
-          <container class="item1">
+          </div>
+          <div class="item1">
             <img src="assets/third.png" alt="third Photo" class="firstPhoto" />
             <div class="border">
-              <text class="textItem">Lawn care</text>
-              <text class="textItem1">Lorem Ipsum has been the industry</text>
+              <div class="textItem">Lawn care</div>
+              <div class="textItem1">Lorem Ipsum has been the industry</div>
             </div>
-          </container>
-          <container class="item1">
-            <img src="assets/fourth.png" alt="fourth Photo" class="firstPhoto" />
+          </div>
+          <div class="item1">
+            <img
+              src="assets/fourth.png"
+              alt="fourth Photo"
+              class="firstPhoto"
+            />
             <div class="border">
-              <text class="textItem">Planting</text>
-              <text class="textItem1">Lorem Ipsum has been the industry</text>
+              <div class="textItem">Planting</div>
+              <div class="textItem1">Lorem Ipsum has been the industry</div>
             </div>
-          </container>
-          <container class="item1">
+          </div>
+          <div class="item1">
             <img src="assets/fifth.png" alt="fifth Photo" class="firstPhoto" />
             <div class="border">
-              <text class="textItem">Garden care</text>
-              <text class="textItem1">Lorem Ipsum has been the industry</text>
+              <div class="textItem">Garden care</div>
+              <div class="textItem1">Lorem Ipsum has been the industry</div>
             </div>
-          </container>
-          <container class="item1">
+          </div>
+          <div class="item1">
             <img src="assets/sixth.png" alt="sixth Photo" class="firstPhoto" />
             <div class="border">
-              <text class="textItem">Planting</text>
-              <text class="textItem1">Lorem Ipsum has been the industry</text>
+              <div class="textItem">Planting</div>
+              <div class="textItem1">Lorem Ipsum has been the industry</div>
             </div>
-          </container>
+          </div>
         </div>
       </section>
       <section class="price" id="price">
@@ -149,42 +159,65 @@
             <div class="prices_item">
               <div class="pricesItem">
                 <div class="itemBasics">
-                  <text class="textBasics">Basics</text>
+                  <div class="textBasics">Basics</div>
                   <div class="ellipse">
-                    <img src="assets/arrow.png" alt="arrow Photo" class="arrow" />
+                    <img
+                      src="assets/arrow.png"
+                      alt="arrow Photo"
+                      class="arrow"
+                    />
                   </div>
                 </div>
                 <div class="itemBasics">
-                  <text class="textBasics">Standard</text>
+                  <div class="textBasics">Standard</div>
                   <div class="ellipse">
-                    <img src="assets/arrow.png" alt="arrow Photo" class="arrow" />
+                    <img
+                      src="assets/arrow.png"
+                      alt="arrow Photo"
+                      class="arrow"
+                    />
                   </div>
                 </div>
                 <div class="itemBasics">
-                  <text class="textBasics">Pro care</text>
+                  <div class="textBasics">Pro care</div>
                   <div class="ellipse">
-                    <img src="assets/arrow.png" alt="arrow Photo" class="arrow" />
+                    <img
+                      src="assets/arrow.png"
+                      alt="arrow Photo"
+                      class="arrow"
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="conteiner1">
-          <div class="callus">
-            <h2 class="bestGardeners">Our best  <span style="color: #499A18;"> gardeners </span>are ready to help you</h2>
-            <button class="button3">
-              <text class="textbutton5">Contact us</text>
-            </button>
+            <div class="callus">
+              <h2 class="bestGardeners">
+                Our best <span style="color: #499a18"> gardeners </span>are
+                ready to help you
+              </h2>
+              <button class="button3">
+                <div class="textbutton5">Contact us</div>
+              </button>
+            </div>
+            <img
+              src="assets/leafsPrices.png"
+              alt="leafsPrices"
+              class="leafsPrices"
+            />
           </div>
-          <img src="assets/leafsPrices.png" alt="leafsPrices" class="leafsPrices" />
-        </div>
         </div>
       </section>
       <section class="contactus" id="contactus">
-        <img src="assets/contact_woman.png" alt="contact_woman" class="contact_woman" />
+        <img
+          src="assets/contact_woman.png"
+          alt="contact_woman"
+          class="contact_woman"
+        />
         <h2 class="textContact">Contact us</h2>
         <div class="dropDown">
-          <text class="textCity">City</text>
+          <div class="textCity">City</div>
           <div class="ellipse1">
             <img src="assets/arrow.png" alt="arrow Photo" class="arrow" />
           </div>
@@ -195,17 +228,51 @@
       <div class="content">
         <div class="footer_data">
           <img src="assets/©.png" alt="©" class="©" />
-          <text class="year">2022</text>
-          <text class="github"><a href="https://rs.school/js-stage0/" target="_blank">github</a></text>
+          <div class="year">2022</div>
+          <div class="github">
+            <a href="https://rs.school/js-stage0/" target="_blank">github</a>
+          </div>
         </div>
-        <text class="RSS"><a href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a></text>
+        <div class="RSS">
+          <a href="https://rs.school/js-stage0/" target="_blank"
+            >Rolling Scopes School</a
+          >
+        </div>
         <div class="social_list">
           <ul class="footer_list">
-            <li><a class="social" href="https://rs.school/js-stage0/" id="inst" target="_blank"></a></li>
-            <li><a class="social" href="https://rs.school/js-stage0/" id="fb" target="_blank"></a></li>
-            <li><a class="social" href="https://rs.school/js-stage0/" id="tw" target="_blank"></a></li>
-            <li><a class="social" href="https://rs.school/js-stage0/" id="pin" target="_blank"></a></li>
-        </ul>
+            <li>
+              <a
+                class="social"
+                href="https://rs.school/js-stage0/"
+                id="inst"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                class="social"
+                href="https://rs.school/js-stage0/"
+                id="fb"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                class="social"
+                href="https://rs.school/js-stage0/"
+                id="tw"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                class="social"
+                href="https://rs.school/js-stage0/"
+                id="pin"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
