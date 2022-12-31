@@ -184,6 +184,7 @@ li {
   font-family: "Inter", sans-serif;
   font-style: normal;
   color: #000000;
+  display: inline-block;
 }
 
 .about {
@@ -501,9 +502,10 @@ li {
   border: 1px solid #e06733;
   border-radius: 5px;
   background-color: #ffffff;
-  margin-top: 38px;
+  margin-top: 36px;
 }
 .textbutton5 {
+  display: contents;
   width: 98px;
   height: 26px;
   font-family: "Inika", serif;
