@@ -1,8 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
 .body {
   margin: 0;
   padding: 0;
-  width: 1440px;
-  height: 3870px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -46,6 +47,7 @@ a:hover::before {
   width: 1220px;
   height: 50px;
 }
+
 .nav {
   width: 452px;
   height: 50px;
@@ -173,6 +175,10 @@ li {
   box-sizing: border-box;
   width: 158px;
   height: 44px;
+  background-color: white;
+}
+.button1:hover {
+  background-color: #e9bba8;
 }
 .textbutton {
   width: 104px;
@@ -279,6 +285,10 @@ li {
   height: 50px;
   border: 1px solid #e06733;
   border-radius: 5px;
+  background-color: white;
+}
+.button2:hover {
+  background-color: #e9bba8;
 }
 .textbutton1 {
   width: 81px;
@@ -440,6 +450,9 @@ li {
   background: #edf2ec;
   border-radius: 20px;
 }
+.itemBasics:hover {
+  background-color: #a6e09b;
+}
 .textBasics {
   width: 100px;
   height: 18px;
@@ -504,6 +517,9 @@ li {
   background-color: #ffffff;
   margin-top: 36px;
 }
+.button3:hover {
+  background-color: #e9bba8;
+}
 .textbutton5 {
   display: contents;
   width: 98px;
@@ -554,6 +570,9 @@ li {
   margin-top: 148px;
   display: flex;
   align-items: center;
+}
+.dropDown:hover {
+  background-color: #a6e09b;
 }
 .textCity {
   width: 204px;
@@ -656,4 +675,564 @@ li {
   width: 188px;
   height: 50px;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 768px;
+    height: 117px;
+  }
+  .navbar {
+    margin-top: 35px;
+    width: 668px;
+    height: 47px;
+  }
+
+  .welcome {
+    width: 768px;
+    height: 420px;
+  }
+  .welcomesection {
+    width: 668px;
+    height: 310px;
+    padding-top: 40px;
+    margin-left: 50px;
+    flex-direction: row-reverse;
+  }
+  .wtx {
+    width: 346px;
+    height: 310px;
+    padding-top: 0px;
+  }
+  .leafs {
+    width: 280px;
+    height: 254.15px;
+  }
+  .welcometext {
+    width: 341px;
+    height: 101px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .text1 {
+    width: 341px;
+    height: 105px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin-left: 5px;
+  }
+  .button1 {
+    margin-top: 30px;
+  }
+
+  .about {
+    width: 768px;
+    height: 783px;
+  }
+  .sectionabout {
+    height: 648px;
+    width: 668px;
+    padding-top: 40px;
+    padding-left: 50px;
+    flex-direction: column-reverse;
+  }
+  .houseplant {
+    width: 250px;
+    height: 258px;
+    margin-left: 209px;
+  }
+  .textgardeners {
+    width: 668px;
+    height: 350px;
+  }
+  .gardeners {
+    width: 423px;
+    height: 102px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    margin-top: 0px;
+    margin-left: 122px;
+    text-align: center;
+  }
+  .text2 {
+    width: 668px;
+    height: 208px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+
+  .services {
+    width: 768px;
+    height: 1780px;
+  }
+  .servicecontent {
+    padding-top: 60px;
+    margin-left: 50px;
+    flex-direction: column;
+    width: 559px;
+    height: 184px;
+  }
+  .serviceprojects {
+    width: 306px;
+    height: 94px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .services_items {
+    width: 668px;
+    height: 1426px;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  .item1 {
+    width: 281px;
+    height: 450px;
+  }
+  .firstPhoto {
+    width: 280px;
+    height: 350px;
+  }
+  .border {
+    width: 280px;
+    height: 100px;
+  }
+  .textItem {
+    height: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .textItem1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    height: 40px;
+    width: 201px;
+    margin-left: 40px;
+  }
+
+  .price {
+    width: 768px;
+    height: 585px;
+  }
+  .textPrices {
+    width: 135px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .pricesWrapper {
+    height: 456.98px;
+    width: 668px;
+    padding-top: 40px;
+    margin-left: 50px;
+  }
+  .prices_item {
+    margin-top: 50px;
+  }
+  .conteiner1 {
+    margin-top: 99px;
+  }
+  .callus {
+    width: 296px;
+    height: 148.99px;
+  }
+  .bestGardeners {
+    width: 296px;
+    height: 77.41px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .button3 {
+    margin-top: 21.59px;
+  }
+  .leafsPrices {
+    margin-top: 34px;
+  }
+
+  .contactus {
+    width: 768px;
+    height: 739px;
+    flex-direction: column;
+  }
+
+  .contact_woman {
+    width: 200px;
+    height: 248.49px;
+    order: 3;
+    margin-top: 250px;
+    margin-left: 294px;
+  }
+  .textContact {
+    padding-top: 40px;
+    margin-left: 288px;
+  }
+  .dropDown {
+    margin-top: 100px;
+    margin-left: 159px;
+  }
+
+  .footer {
+    width: 768px;
+    height: 181px;
+    align-items: flex-start;
+  }
+  .content {
+    width: 210px;
+    height: 130px;
+    flex-direction: column;
+    margin-top: 33px;
+  }
+  .RSS {
+    width: 210px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 0;
+    margin-top: 16px;
+  }
+  .footer_data {
+    height: 24px;
+    margin-left: 20px;
+  }
+  .social_list {
+    margin-left: 12px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header {
+    display: block;
+    width: 380px;
+    height: 96px;
+  }
+  .navbar {
+    width: 330px;
+    height: 24px;
+    padding-top: 26px;
+    margin-top: 0;
+    margin-left: 25px;
+  }
+  .wrapper {
+    height: 100%;
+    width: 40px;
+    order: 3;
+    margin-top: 9px;
+  }
+  .area {
+    height: 100%;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .menulogo {
+    height: 2px;
+    width: 40px;
+    background-color: #717171;
+  }
+  .menu {
+    background-color: #edf2ec;
+    opacity: 0.9;
+    flex-direction: column;
+    width: 213px;
+    height: 250px;
+    transition: 0.5s;
+    transform: translateY(-1000px);
+  }
+  .menu.active {
+    transform: translateY(50px);
+    transition: 0.5s;
+  }
+
+  .welcome {
+    width: 380px;
+    height: 300px;
+  }
+  .welcomesection {
+    padding-top: 0;
+    margin-left: 0;
+    display: block;
+  }
+  .textgardeners{
+    width: 330px;
+height: 455px;
+  }
+  .wtx {
+    width: 330px;
+    height: 252px;
+    padding-top: 24px;
+    margin-left: 25px;
+  }
+  .welcomesection{
+    width: 380px;
+    height: 300px;
+  }
+  .welcometext {
+    width: 330px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .text1 {
+    width: 314.52px;
+    height: 105.42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 0;
+    padding-top: 20.36px;
+  }
+  .button1 {
+    width: 100px;
+    height: 34.14px;
+    margin-top: 20.08px;
+  }
+  .textbutton {
+    width: 64px;
+    height: 18.07px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .leafs {
+    display: none;
+  }
+
+  .about {
+    width: 380px;
+    height: 516px;
+  }
+  .sectionabout {
+    width: 330px;
+    height: 455px;
+    padding-top: 30px;
+    padding-left: 25px;
+  }
+  .gardeners {
+    width: 288px;
+    height: 57.74px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    margin-left: 21px;
+  }
+  .text2 {
+    width: 330px;
+    height: 228.38px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 21.55px;
+  }
+  .houseplant {
+    width: 150px;
+    height: 147px;
+    margin-left: 90px;
+  }
+
+  .services {
+    width: 380px;
+    height: 3150px;
+  }
+  .servicecontent {
+    padding-top: 30px;
+    margin-left: 25px;
+    height: 183px;
+    width: 252px;
+  }
+  .serviceprojects {
+    width: 187px;
+    height: 69px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .servicebuttons {
+    margin-top: 35px;
+    width: 252px;
+    height: 79px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .button2 {
+    width: 121px;
+    height: 35px;
+  }
+  .textbutton3 {
+    width: 65px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .textbutton1 {
+    width: 65px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .textbutton2 {
+    width: 65px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .services_items {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 280px;
+    height: 2870px;
+  }
+
+  .price {
+    width: 382px;
+    height: 512px;
+  }
+  .pricesWrapper {
+    width: 230px;
+    height: 447px;
+    padding-top: 25px;
+    margin-left: 79px;
+    flex-direction: column;
+  }
+  .Prices {
+    height: 302px;
+    width: 224px;
+  }
+  .textPrices {
+    width: 90px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 67px;
+  }
+  .prices_item {
+    width: 224px;
+    height: 235px;
+  }
+  .itemBasics {
+    width: 180px;
+    height: 49.72px;
+  }
+  .textBasics {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 30px;
+  }
+  .ellipse {
+    margin-right: 14.92px;
+  }
+  .pricesItem {
+    align-items: center;
+    height: 177px;
+  }
+  .conteiner1 {
+    margin-top: 19px;
+    width: 230px;
+    height: 126px;
+  }
+  .leafsPrices {
+    display: none;
+  }
+  .callus {
+    height: 126px;
+    width: 230px;
+    align-items: center;
+  }
+  .bestGardeners {
+    width: 230px;
+    height: 77px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .button3 {
+    margin-top: 14px;
+    width: 121px;
+    height: 35px;
+  }
+  .textbutton5 {
+    width: 77px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .contactus {
+    width: 384px;
+    height: 445px;
+  }
+  .textContact {
+    width: 192px;
+    height: 34px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    padding-top: 25px;
+    margin-left: 96px;
+    text-align: center;
+  }
+  .dropDown {
+    width: 300px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 42px;
+  }
+  .textCity {
+    width: 204px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    margin-left: 16px
+  }
+  .ellipse1 {
+    margin-left: 40px;
+  }
+  .contact_woman {
+    width: 100px;
+    height: 124.25px;
+    margin-top: 132px;
+    margin-left: 142px;
+  }
+
+  .footer {
+    width: 380px;
+    height: 146px;
+  }
+  .content {
+    margin-top: 22px;
+    width: 210px;
+    height: 117px;
+  }
+  .social_list{
+    margin-top: 3px;
+  }
+  
 }
